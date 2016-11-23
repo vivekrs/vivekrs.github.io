@@ -6,8 +6,8 @@ var jr = {
 	 * You can define content blocks to display in your theme
 	 */
 	blocks : {
-		//'footer.html' : 'footer',
-		//'header.html' : 'header'
+		'footer.html' : 'footer',
+		'header.html' : 'header'
 	},
 	styles : [
 		// Choose a theme CSS

@@ -1,0 +1,20 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/themes/default.css"/>
+  <script>
+    var me = document.currentScript.ownerDocument;
+
+    window.onload = function(){
+      var post = me.querySelector('#nav');
+	
+      var container = document.querySelector('#nav');
+      container.appendChild(post.cloneNode(true));
+    }
+  </script>
+</head>
+<body>
+  <div id="nav">
+	<a href="http://www.vivekrs.com/" title="home">Vivek R.S.</a>
+  </div>
+</body>
+</html>
