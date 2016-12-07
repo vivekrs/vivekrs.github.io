@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans|Anaheim');
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans');
 
 * {
 	-webkit-box-sizing: border-box;
@@ -58,23 +57,20 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.25;
 	color: #313131;
 	text-rendering: optimizeLegibility;
-	font-family: 'Anaheim', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: normal;
+	margin-top: 1rem;
 }
 h1 {
-	font-family: 'Cutive Mono', monospace;
 	font-size: 2.5rem;
 }
 h2 {
-	margin-top: 1rem;
 	font-size: 1.5rem;
 }
 h3 {
-	margin-top: 1.5rem;
 	font-size: 1.25rem;
 }
 h4, h5, h6 {
-	margin-top: 1rem;
 	font-size: 1rem;
 }
 
